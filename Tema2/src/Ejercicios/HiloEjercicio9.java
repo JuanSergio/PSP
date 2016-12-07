@@ -32,7 +32,7 @@ public class HiloEjercicio9 extends Thread{
 		
 		
 		int inicio= 0;
-		HiloEjercicio9 hilo1 = new Thread();
+		Thread hilo1 = new Thread();
 		Thread hilo2 = new Thread();
 		Thread hilo3 = new Thread();
 		Thread hilo4 = new Thread();

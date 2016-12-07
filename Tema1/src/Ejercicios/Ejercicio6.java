@@ -3,7 +3,7 @@ package Ejercicios;
 class HiloEjercicio6 extends Thread {
 	private long espera;
 	
-	public HiloEjercicio6 (long espera, String nombre) {
+	public HiloEjercicio6 (long espera, String nombre)  {
 		this.espera = espera;
 		this.setName(nombre);
 	}

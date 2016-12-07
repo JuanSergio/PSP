@@ -1,0 +1,46 @@
+package Ejercicios;
+
+import java.awt.Container;
+import java.awt.event.ContainerAdapter;
+import java.beans.MethodDescriptor;
+import java.util.Scanner;
+
+import org.omg.CORBA.PRIVATE_MEMBER;
+
+public class HiloEjercicio9{
+	
+	static int contador = 0;
+	static String frase;
+	
+
+	public void contarA(){
+		if(HiloEjercicio9.frase.contains("a") | HiloEjercicio9.frase.contains("A"))
+			contador++;
+	}
+	public void run(){
+		if (this.getName().compareTo("hilo1")==0)
+			this.contarA();
+	}
+		
+	
+	public static void main(String args[]){
+		Scanner tlc = new Scanner(System.in);
+		String palabra = tlc.nextLine();
+		
+		
+		int inicio= 0;
+		Thread hilo1 = new Thread("hilo1");
+		Thread hilo2 = new Thread();
+		Thread hilo3 = new Thread();
+		Thread hilo4 = new Thread();
+		Thread hilo5 = new Thread();
+		hilo1.start();
+		hilo2.start();
+		hilo3.start();
+		hilo4.start();
+		hilo5.start();
+		
+	}
+}
+
+

@@ -27,8 +27,8 @@ class Ejercicio5 {
 	public static void main(String[] args) {
 		System.out.println("Hilo PRINCIPAL empezando.");
 		
-		HiloEjercicio4 thread1 = new HiloEjercicio5(3000, "Hilo 1");
-		HiloEjercicio4 thread2 = new HiloEjercicio5(7000, "hilo 2");
+		HiloEjercicio5 thread1 = new HiloEjercicio5(3000, "Hilo 1");
+		HiloEjercicio5 thread2 = new HiloEjercicio5(7000, "hilo 2");
 				
 		thread1.start();
 		thread2.start();
