@@ -1,7 +1,0 @@
-INDEX VERSION 1.129+/home/mati/PSP/.metadata/.plugins/org.eclipse.jdt.core
-1919757167.index
-3740726469.index
-4198979712.index
-3535270749.index
-191483412.index
-406529613.index
